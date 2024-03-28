@@ -11,9 +11,6 @@ import java.util.*;
 public class Book implements Comparable<Object>{
     private String bookName,authorName;
     private Integer bookPage,relaseDateOfBook;
-  //"John Steinbeck",111,1937
-//,"Robert Kiyosaki",400,1997
-    //"Vladimir Bartol",512,1938
     @Override
     public int compareTo(Object o) {
         o=this.bookName;
